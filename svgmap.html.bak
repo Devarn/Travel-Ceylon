@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+    <title> Travel Ceylon | Sitemap</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+	<link rel="icon" type="image/x-icon" href="logo.ico">
+	
+
+
+    <link href="css/student4/css/footer.css" rel="stylesheet" type="text/css">
+	<link href="css/student4/css/externalstyle.css" rel="stylesheet" type="text/css">
+	<link href="css/student4/css/svgsitemap.css" rel="stylesheet" type="text/css">
+	
+
+    
+
+
+		 
+
+	
+</head>
+<body >
+<div>
+
+<button id="backToTop" onclick="backToTopFunction()">
+
+		<img src="image1.png" alt="backToTop">top
+		
+</button>
+</div>
+   
+
+<header>
+        <div class="container">
+            <div id="branding">
+                <img src= "logo.png" alt="logo">
+               <h1>&nbsp;TRAVEL CEYLON&nbsp;</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="quiz_start.html">Quiz</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="Additionalcontent/content.html">Content</a></li> 
+                    <li><a href="thumbnails.html">Thumbnails</a></li>                  
+                </ul>
+            </nav>
+        </div>
+    </header>
+	<div class="Top">
+</div>
+
+
+    
+    
+	<div id="svgbackground">
+	<div id="svg_header">
+	<h1 class="svg_title">In need of a map?</h1>
+	<h1 class="svg_title">Use this sitemap to access our any of our pages with ease!</h1>
+	</div>
+	
+	<svg id="SVGSiteMap" height="900px" width="1400px">
+	
+	<g id="svgpresentation">
+	    <rect x="590" y="145" height="50" width="150"/>
+		<text x="665" y="177">Presentation page</text>
+	</g>
+	<g id="svgPpagetoHpage_line">
+	    <line id="shapeId1" x1="665" y1="197" x2="665" y2="258"></line>
+	</g>
+	<g id="svghomepage">
+	    <rect x="590" y="260"  height="50" width="150"/>
+		<text x="665" y="290">Home page</text>
+		
+	</g>
+	<g id="svgHpageToQpage">
+	    <line id="shapeId2" x1="665" y1="312" x2="665" y2="371"></line>
+		
+	</g>
+	<g id="svgbuy">
+	    <rect x="170" y="370"  height="50" width="150"/>
+		<text x="247" y="400">Buy products</text>
+		
+	</g>
+	<g id="svgBuypageTogroupDetails">
+	    <line id="shapeId3" x1="322" y1="395" x2="380" y2="395"></line>
+		
+	</g>
+		<g id="svggroup_details">
+	    <rect x="380" y="370"  height="50" width="150"/>
+		<text x="457" y="400">Group details</text>
+		
+	</g>
+	<g id="GroupToS1">
+	    <line id="shapeId5" x1="457" y1="421" x2="457" y2="471"></line>
+		
+	</g>
+	<g id="student1">
+	    <rect x="380" y="470"  height="50" width="150"/>
+		<text x="457" y="500">Student 1</text>
+		
+	</g>
+		<g id="GroupToS2">
+	    <line id="shapeId6" x1="457" y1="521" x2="457" y2="571"></line>
+		
+	</g>
+	<g id="student2">
+	    <rect x="380" y="570"  height="50" width="150"/>
+		<text x="457" y="600">Student 2</text>
+		
+	</g>
+		<g id="GroupToS3">
+	    <line id="shapeId7" x1="457" y1="621" x2="457" y2="671"></line>
+		
+	</g>
+	<g id="student3">
+	    <rect x="380" y="670"  height="50" width="150"/>
+		<text x="457" y="700">Student 3</text>
+		
+	</g>
+	<g id="GroupToS4">
+	    <line id="shapeId8" x1="457" y1="721" x2="457" y2="771"></line>
+		
+	</g>
+		<g id="student4">
+	    <rect x="380" y="770"  height="50" width="150"/>
+		<text x="457" y="800">Student 4</text>
+		
+	</g>
+
+	<g id="explore">
+	    <rect x="590" y="570" height="50" width="150"/>
+		<text x="665" y="600">Explore more</text>
+	</g>
+		<g id="student2_content_line">
+	    <line x1="532" y1="595" x2="589" y2="595"></line>
+		
+	</g>
+	
+	<g id="svgGroupToQuery">
+	    <line x1="532" y1="395" x2="589" y2="395"></line>
+		
+	</g>
+	<g id="svgquery">
+	    <rect x="590" y="370"  height="50" width="150"/>
+		<text x="666" y="400">Query form</text>
+		
+	</g>
+	<g id="svgQueryToQuiz">
+	    <line id="shapeId9" x1="741" y1="395" x2="800" y2="395"></line>
+		
+	</g>
+		<g id="svgquiz">
+	    <rect x="800" y="370"  height="50" width="150"/>
+		<text x="870" y="400">Quiz</text>
+		
+	</g>
+	<g id="svgQuizToThumbnail">
+	    <line id="shapeId10" x1="951" y1="395" x2="999" y2="395"></line>
+		
+	</g>
+		<g id="svgthumbnails">
+	    <rect x="1000" y="370"  height="50" width="150"/>
+		<text x="1075" y="400">Thumbnails page</text>
+		
+	</g>
+	
+
+	
+
+
+	</svg>
+	
+	
+	</div>
+<div id="footer_container">
+<footer>
+<div class="row">
+  <div class="column1">
+    <h1 class="branding">&nbsp;TRAVEL CEYLON&nbsp;</h1>
+	
+  </div>
+  <div class="column1">
+    <h2 class="footer_headings">Explore more</h2>
+<div class="footer_items">
+    <a href="homepage.html">Home</a><br>
+	<a href="about_us.html">About</a><br>
+	<a href="quiz_start.html">Quiz</a><br>
+	<a href="feedback.html">Feedback</a><br>
+	<a href="thumbnails.html">Thumbnails</a><br>
+	<a href="svgmap.html">Sitemap</a><br>
+</div>
+   
+    
+  </div>
+  <div class="column1">
+  
+    <h2  class="footer_headings">More about Srilanka</h2>
+	<div class="footer_items">
+    <a href="Additionalcontent/content.html">Click here!</a><br>
+
+  </div>
+  </div>
+  <div class="column1">
+    <div id="contactus">
+	  <h2>Contact us&nbsp;</h2>
+	  <a href="https://www.gmail.com/"><img src="images/envelope.svg" alt="gmail" width="55" height="55"/></a>
+	  </div>
+	<div id="socials">
+	<h2>Socials&nbsp;</h2>
+   <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook" width="55" height="55"/></a>
+   <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram" width="55" height="55"/></a>
+   
+   <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="youtube" width="55" height="55"/></a>
+   </div>
+
+  </div>
+    <div class="column1">
+    <h1  class="footer_headings">&nbsp;Page editor:&nbsp;</h1>
+	<h1  id="editor_name">&nbsp;Devarn Paraneetharan&nbsp;</h1>
+	<a href="page_editor_dev.html" id="editor_details">Student 4</a>
+  </div>
+</div>
+</footer>
+</div>
+
+	
+	
+	
+	
+     <script src="javascript/svgjs.js"></script>
+	<script src="javascript/backtotop.js"></script>
+	
+		
+</body>
+</html>	
+	
+	
+	
+

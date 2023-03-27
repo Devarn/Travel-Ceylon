@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link rel="stylesheet" href="css/student1/css/style.css">
+    <link rel="stylesheet" href="css/student1/css/externalstyle.css">
+    <title>shop</title>
+</head>
+<body>
+    <!-- ____________navigation bar____________-->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src= "logo.png" alt="logo">
+               <h1>&nbsp;TRAVEL CEYLON&nbsp;</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="quiz_start.html">Quiz</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="content.html">Content</a></li> 
+                    <li><a href="svgmap.html">Sitemap</a></li>                 
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--____________ 4 products ____________ -->
+    <div class="mycontainer">
+        <div class="products">
+            <img class="image" src="img/products/h1.jpg" alt="Polhena Beach">
+            <h3>Mirissa Beach Hotels</h3>
+            <h3>$20.00</h3>
+            <button class="addtocart button2">Add To Cart</button>
+        </div>
+        <div class="products">
+            <img class="image" src="img/products/h2.jpg" alt="Hine Skies">
+            <h3>Nine Arches Hotels</h3>
+            <h3>$6.00</h3>
+            <button class="addtocart button2">Add To Cart</button>
+        </div>
+        <div class="products">
+            <img class="image" src="img/products/h3.jpg" alt="Hikkaduwa Beach">
+            <h3>Weligama Beach Hotels</h3>
+            <h3>$15.00</h3>
+            <button class="addtocart button2">Add To Cart</button>
+        </div>
+        <div class="products">
+            <img class="image" src="img/products/h4.jpg" alt="Anuradhapura">
+            <h3>Dondra Beach Hotels</h3>
+            <h3>$10.00</h3>
+            <button class="addtocart button2">Add To Cart</button>
+        </div> 
+    </div>
+    
+
+    <!-- details about products -->
+    <div class="products-details">
+        <p>These coupons can be used to get discounts from hotels in the area mentioned in the coupon
+            <br>These coupons are only validation for one time
+            <br>By presing Add To Cart you can buy musch as you wont 
+            <br>you can use coupons for
+        </p> 
+            <ul>
+                <li>booking hotels</li>
+                <li>buy foods</li>
+                <li>others..</li>
+            </ul>
+        <p>
+            using coupon gives 10% of discount 
+        </p>
+
+    </div>
+    <!-- ______________cartupdate cart and delete cart buttons______________-->
+    <div class="cartbox">
+        <div class="cart">
+            <button type="button" class="button" id="read_data">
+                Update Cart <span>0</span>
+            </button>
+            <button class="button" id="delete_data">
+                Delete cart
+            </button>
+        </div>
+    </div>
+    
+
+    <!-- ______________cart table______________-->  
+    <div class="product-container">
+        <div class="product-header">
+            <h5 class="product-title">PRODUCT</h5>
+            <h5 class="price">PRICE</h5>
+            <h5 class="quantity">QUANTITY</h5>
+            <h5 class="total">TOTAL</h5>
+        </div>
+        <div class="product">
+
+        </div>
+    </div>
+
+    <!--________________validation form ________________-->
+    <div class="formbox">
+        <div class="container-form">
+            <div class="header-form">
+                <h2>Fill Your Details</h2>
+            </div>
+            <form id="form" class="form">
+                <div class="form-control">
+                    <label for="customer">Name</label>
+                    <input  type="text" placeholder="nethruwan" id="customer" />
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input placeholder="a@florin-pop.com" id="email" />
+                </div>
+                <button class="button2">Place the order</button>
+            </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--______________invoice details ______________-->
+    <div class="formbox">
+        <div class="summary">
+            <div class="summary-name">
+                <h3>Name: <span id="output1"></span></h3>
+            </div>
+            <div class="summary-email">
+                <h3>Email: <span id="output2"></span></h3>
+            </div>
+                
+                <h3>Invoice details</h3>
+                <h3>----------------------</h3>
+            <div class="Invoice-details">
+    
+            </div>
+        </div>
+    </div>
+
+    <!-- page editor link and go to top button  -->
+    <div class="pagebottom">
+        <div class="page-editor">
+            <a href="pageeditor.html">Page Editor</a>
+        </div>
+        <button onclick="gotop()" id="myBtn" title="Go to top">Top</button>
+    </div>
+    
+    <div id="footer_container">
+        <footer>
+            <div class="row">
+                <div class="column1">
+                    <h1 class="branding">&nbsp;TRAVEL CEYLON&nbsp;</h1>
+                </div>
+                <div class="column1">
+                    <h2 class="footer_headings">Explore more</h2>
+                    <div class="footer_items">
+                        <a href="homepage.html">Home</a><br>
+                        <a href="about_us.html">About</a><br>
+                        <a href="quiz_start.html">Quiz</a><br>
+                        <a href="feedback.html">Feedback</a><br>
+                        <a href="thumbnails.html">Thumbnails</a><br>
+                        <a href="svgmap.html">Sitemap</a><br>
+                    </div>
+                </div>
+                <div class="column1">
+                    <h2  class="footer_headings">More about Srilanka</h2>
+                    <div class="footer_items">
+                        <a href="content.html">Click here!</a><br>
+                      </div>
+                </div>
+                <div class="column1">
+                    <div id="contactus">
+                        <h2>Contact us&nbsp;</h2>
+                        <a href="https://www.gmail.com/"><img src="img/footer/envelope.svg" alt="gmail" width="55" height="55"/></a>
+                    </div>
+                    <div id="socials">
+                        <h2>Socials&nbsp;</h2>
+                        <a href="https://www.facebook.com/"><img src="img/footer/facebook.svg" alt="facebook" width="55" height="55"/></a>
+                        <a href="https://www.instagram.com/"><img src="img/footer/instagram.svg" alt="instagram" width="55" height="55"/></a>
+                        
+                        <a href="https://www.youtube.com/"><img src="img/footer/youtube.svg" alt="youtube" width="55" height="55"/></a>
+                        </div>
+                </div>
+                <div class="column1">
+                    <h1  class="footer_headings">&nbsp;Page editor&nbsp;</h1>
+                    <h4 id="editor_details">WWP. Nethruwan Dhanasankha</h4>
+					<a href="pageeditor.html" id="editor_details">Student 1</a>
+                </div>    
+            </div>
+        </footer>
+    </div>
+
+    <script src="java/count.js"></script>
+</body>
+</html>

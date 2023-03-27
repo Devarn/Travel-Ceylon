@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sanuki</title>
+		<link rel="shortcut icon" href="pics/logo.ico">
+		<link rel="stylesheet" type="text/css" href="css/student3/css/my_css.css">
+		<link rel="stylesheet" type="text/css" href="css/student3/css/externalstyle.css">
+		<style>
+			#image2{
+				display: block;
+				height: 200px;
+				width: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="image2" src="pics/sanuki.jpeg" alt="Sanuki picture"/>
+		<h4><u>About me</u></h4>
+		<br>
+		<br>
+		<p>My name is Sanuki Karunatilake . I am 20 years old. I studied at Musaeus College. I am currently following the SE Degree at IIT under the University of Westiminster. My hobbies are watching movies. My love for Sri Lanka and the hidden gems around our country made me passionate to make this website. </p>
+		<br>
+		<br>
+		<br>
+		<table style="color: white">
+			<tr>
+				<th><b>NAME</b></th>
+				<td><b>Sanuki Karunatilake</b></td>	
+			</tr>
+			<tr>
+				<th><b>AGE</b></th>
+				<td><b>20</b></td>
+			</tr>
+			<tr>
+				<th><b>CONTACT DETAILS</b></th>	
+				<td><b>Email:<a href="mailto:sanuki.20210122@iit.ac.lk">Sanuki</a><br>Phone No:<a href="tel:+94763422534">+94763422534</a></b></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>	
+		<br>
+		<br>	
+		<br>
+		<br>
+		<br>
+		<footer style="background-color: white" >
+			<a href="page_editor_san.html" style="font-size:20px"><b>PAGE EDITOR</b></a>
+		</footer>
+	</body>
+	</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Page Editor</title>
+		<style>
+		body
+		{
+		font-family: Corbel, Calbri, sans-serif;
+		font-size: 20px;
+		padding: 10px;
+		}
+		</style>
+	</head>
+
+	<body>
+
+		<h2>My name - Vidushraj Selvaraj</h2>
+		<h2> <b> My Roll in this CourseWork </b> </h2>
+
+		<ul>
+			<li>Student 3</li>
+		</ul>
+
+		<h2> <b> Tasks I have Completed </b> </h2>
+
+		<ul>
+			<li>I have created a Quiz page.</li>
+			
+
+			<li>I have created a About us page.</li>
+			
+
+			<li>I have added picture linking to Home page.</li>
+			
+			
+			<li>I have added some contents to additioanl content page.</li>
+			
+			
+		</ul>
+		<br><br>
+
+		<a href="quiz_start.html">  CLICK HERE TO GO FOR MY QUIZ Page  </a>
+		<br>
+		<a href="about_us.html">  CLICK HERE TO GO FOR MY About Us Page  </a>
+		<br>
+		<a href="home_page.html">  CLICK HERE TO GO FOR Home Page </a>
+		<br>
+		<a href="content.html">  CLICK HERE TO GO FOR Additional content Page </a>
+	</body>
+</html>

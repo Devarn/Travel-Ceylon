@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Travel Ceylon | content</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link href="css/content/css/externalstyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/content/css/content.css">
+    <link href="css/content/css/footer.css" rel="stylesheet" type="text/css">
+    <style>
+      body {
+          padding: 0;
+          margin: 0;
+          background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Background.jpg");
+          background-repeat: no-repeat;
+          background-size:cover;
+          background-attachment: fixed;
+      }
+      </style>
+</head>
+<body>
+<!--Back to top button-->  
+	<button id="backToTop" onclick="backToTopFunction()">
+		<img src="image1.png" alt="backToTop">
+    </button>
+<!--Start Navigation-->   
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src= "logo.png" alt="logo">
+               <h1>&nbsp;TRAVEL CEYLON&nbsp;</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="quiz_start.html">Quiz</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="content.html">Content</a></li> 
+                    <li><a href="svgmap.html">Sitemap</a></li>                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <!--End Navigation--> 
+  <!--Start Content--> 
+        
+  <div class="abtfood">
+            <div class="topic">
+            <h1>A TASTE OF SRI LANKAN CUISINE</h1>
+            </div>
+            <img src="images\img4.jpg" alt="picture of hoppers" class="image1">
+            <img src="images\img5.jpg" alt="picture of kottu" class="image2">
+            <img src="images\img6.jpg" alt="picture of string hoppers" class="image3">
+        
+            <div class="descriptionaboutfood">
+            <br>
+              <p>
+                  <div class="box">
+                Since Sri Lanka is a multi cultural country, you cannot expect anything less when it comes to Sri Lankan food. Offering a vivid array of flavor combinations,  Our country is filled with its regional flavours while the cuisine is known for a rich combination of rice specialities, spices, herbs, seafood, seasonal vegetables and fruits and of course, legumes. <br>
+
+                <br> Culture plays a pivotal role in the food scene in Sri Lanka while many Sinhalese food items are derived from the chena cultivation. From the most celebrated and auspicious Sinhala and Hindu New Year to various day to day events and celebrations will see an array of traditional Sri Lankan meals ranging from milk rice, sweetmeats and spicy curries for accompaniments. <br>
+                
+                <br>Many of these dishes are centred around the main staple rice, rice flour and coconut while seafood also plays quite an important part in Sri Lankan cuisine. Most Sri Lankans prefer vegetable curries while the main go-to meal in any part of the island is the good old “Rice and Curry”. The curries have immense flavour and colours which are derived from a list of Sri Lankan Hot Spices. These spices not only add great flavour to the food but also adds ayurvedic value to the dish. <br>
+                
+                <br>Since Sri Lankan food is regionally diverse, you can expect the same dish prepared in various methods and with different flavours. For an example, the dishes from the South of Sri Lanka have a distinctive quality and is mainly amalgamated with seafood. “Ambulthiyal” is a unique spicy fish preparation that uses a thick gambooge (goraka) paste while the preparation in the South is different from the other parts of the island.<br>
+                
+                <br>Hot and Spicy, tangy and sweet are the main flavours that you can explore whenever you are on a food trail in Sri Lanka. <br>
+              </p>
+                   </div>
+            </div>
+            
+            <hr class="secondline">
+            <div class="abtflowers">
+                <div class="topic">
+                <h1>FLOWERS OF SRI LANKA</h1>
+                </div>
+                <img src="images\image3.jpeg" alt="picture of flower3" class="image1">
+                <img src="images\image2.jpeg" alt="picture of flower2" class="image2">
+                <img src="images\image1.jpeg" alt="picture of flower1" class="image3">
+            
+                <div class="descriptionaboutfood">
+                <br>
+                  <p>
+                      <div class="box1">
+                          <br>Flowers add a sense of calmness and beauty wherever it is grown. Sri Lanka is no exception in this regard being home to many Rare and delightful flowers. <br>
+                          <br> The national flower of Sri Lanka is the Blue water Lily. Known for its eye-catching beauty and pleasing blue color with yellow stamens, this flower can often be found in wetland areas or slow moving streams.<br>
+<br>Being a multi cultural country, flowers are also used as offerings in temples and kovils. Often representing Buddhism, is the sacred lotus. It is known locally as 'nelum'. This flower is known for being one of the only water grown flowers to bloom several inches above the surface.The flower also emits a rich fragrance.<br>
+
+<br>The rather aptly named flower 'Queen of the night' can also be found in Sri Lankan. It is regared as one of the most expensive Flowers in the world due it's sweet fragrance and wilting in short while after being picked. This flower is known as 'Kadupul' by Sri Lankans.<br>
+                 </p>
+                       </div>
+                </div>
+              </div>
+              <hr class="secondline2">
+              <div class="abtanimals">
+                  <div class="topic">
+                  <h1>ANIMALS OF SRI LANKA</h1>
+                  </div>
+                  <img src="images\img2.jpeg" alt="picture of animals2" class="image1">
+                  <img src="images\img3.jpg" alt="picture of animals3" class="image2">
+                  <img src="images\img1.jpeg" alt="picture of animals1" class="image3">
+              
+                  <div class="descriptionaboutfood">
+                  <br>
+                    <p>
+                        <div class="box">
+                          <br>The elephant is the national animmal of Sri Lanka. Sri Lankan elephants are the largest subspecies reaching a shoulder height of between 2 and 3.5 m (6.6 and 11.5 ft), weigh between 2,000 and 5,500 kg (4,400 and 12,100 lb), and have 19 pairs of ribs.
+                          Their skin colour is darker than of indicus and of sumatranus with larger and more distinct patches of depigmentation on ears, face, trunk and belly.
+                          Only 7% of males bear tusks.
+                          Longest tusks of 7 feet 6 inches long was found in Millangoda Raja (1938-30 July 2011)<br>
+                          
+                          <br>The Sri Lankan leopard has a tawny or rusty yellow coat with dark spots and close-set rosettes, which are smaller than in Indian leopards. Seven females measured in the early 20th century averaged a weight of 64 lb (29 kg) and had a mean head-to-body-length of 3 ft 5 in (1.04 m) with a 2 ft 6.5 in (77.5 cm) long tail, the largest being 3 ft 9 in (1.14 m) with a 2 ft 9 in (84 cm) long tail; 11 males averaged 124 lb (56 kg), the largest being 170 lb (77 kg), and measured 4 ft 2 in (1.27 m) with a 2 ft 10 in (86 cm) long tail, the largest being 4 ft 8 in (1.42 m) with a 3 ft 2 in (97 cm) long tail.
+                          The Sri Lankan leopard has allegedly evolved to become a rather large leopard subspecies, because it is an apex predator without competition by other large wild cat species in the country.
+                          Large males have been suggested to reach almost 220 lb (100 kg), but evidence for this is lacking.<br>
+                          
+                          
+                          <br>The Junglefowl is the national bird of Srilanka.
+                          The male Sri Lankan junglefowl ranges from 66–72 cm (26–28 in) in length and 790–1,140 g (1.74–2.51 lb) in weight, essentially resembling a large, muscular rooster. 
+                          The male has orange-red body plumage, and dark purple to black wings and tail.
+                          The feathers of the mane descending from head to base of spine are golden, and the face has bare red skin and wattles.
+                          The comb is red with a yellow centre. 
+                          As with the green junglefowl, the cock does not possess an eclipse plumage.
+                         <br>
+                    </p>
+                         </div>
+                  </div>
+                </div>
+      <!--End Content--> 
+      <!--Start Footer--> 
+      <div id="footer_container">
+        <footer>
+        <div class="row">
+          <div class="column1">
+            <h1 class="branding">&nbsp;TRAVEL CEYLON&nbsp;</h1>
+            
+          </div>
+          <div class="column1">
+            <h2 class="footer_headings">Explore more</h2>
+        <div class="footer_items">
+            <a href="homepage.html">Home</a><br>
+            <a href="about_us.html">About</a><br>
+            <a href="quiz_start.html">Quiz</a><br>
+            <a href="feedback.html">Feedback</a><br>
+            <a href="thumbnails.html">Thumbnails</a><br>
+            <a href="svgmap.html">Sitemap</a><br>
+        </div>
+           
+            
+          </div>
+          <div class="column1">
+          
+            <h2  class="footer_headings">More about Srilanka</h2>
+            <div class="footer_items">
+            <a href="student2.html">Click here!</a><br>
+        
+          </div>
+          </div>
+          <div class="column1">
+            <div id="contactus">
+              <h2>Contact us&nbsp;</h2>
+              <a href="https://www.gmail.com/"><img src="images/envelope.svg" alt="gmail" width="55" height="55"/></a>
+              </div>
+            <div id="socials">
+            <h2>Socials&nbsp;</h2>
+           <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook" width="55" height="55"/></a>
+           <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram" width="55" height="55"/></a>
+           
+           <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="youtube" width="55" height="55"/></a>
+           </div>
+        
+          </div>
+            <div class="column1">
+              <h1  class="footer_headings">&nbsp;Page Editor:&nbsp;</h1>
+              <h4  class="footer_headings">&nbsp;Sanuki Karunatilake&nbsp;</h4>
+              <a href="student2.html" id="editor_details">Student 2</a>
+          </div>
+        </div>
+        </footer>
+        </div>
+        <script src="js/backtotop.js"></script>    
+    <!--End Footer-->                 
+</body>
+</html>
+       

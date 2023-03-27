@@ -1,0 +1,148 @@
+<!DOCTYPE HTMl>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Quiz</title>
+		<link rel="shortcut icon" href="pics/logo.ico">
+		<link rel="stylesheet" type="text/css" href="css/student3/css/my_css.css">
+		<link rel="stylesheet" type="text/css" href="css/student3/css/my_css2.css">
+		<link href="css/student3/css/footer.css" rel="stylesheet" type="text/css">
+		<link href="css/student3/css/externalstyle.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/student3/css/form.css">
+		<style>
+			.quiz_path #button{
+					padding:10px;
+					border: none;
+					border-radius: 10px;
+					position:absolute;
+					top:2100px;
+					left:0%;
+					right:40%;
+					background-color: red;
+					font-size: 30px;
+					font-family: Lucida Console, Calbri, sans-serif;
+					color: white;
+			}
+		</style>
+	</head>
+	<body>
+																										<!-- Back to top button -->
+		<button onclick="topBtn()" id="backToTop" title="Go to top">
+			<img src="pics/image1.png" alt="backToTop">
+		</button>
+																											<!-- navigation bar starts -->
+		<header>
+			<div class="container">
+				<div id="branding">
+					<img src= "pics/logo.png" alt="logo">
+					<h1>&nbsp;TRAVEL CEYLON&nbsp;</h1>
+				</div>
+				<nav>
+					<ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="quiz_start.html">Quiz</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="content.html">Content</a></li> 
+                    <li><a href="svgmap.html">Sitemap</a></li>                  
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+																											<!-- Quiz starts -->
+		<h1 class="about">Quiz</h1>
+		<br>
+		<br>
+		<br>
+		<div class="b">
+			<div id= "time">
+				<p id="timer"> </p>
+			</div>
+			<div id="box">
+				<div id="quiz"></div>
+					<button id="submit">Submit Quiz</button>
+						<div id="results"></div>		
+			</div>
+		</div>
+		<script src="javascript/Script2.js"></script>
+		<script src="javascript/Script1.js"></script>
+		<script>
+			var timer;
+					var min = 0;
+					var sec = 60; 
+					var sec2;
+					
+					window.onload = function timecount(){
+						timer = setInterval(function(){ 
+							sec--;
+							if (min == 0 && sec == 0){
+								clearTimeout(timer);
+								document.getElementById("box").innerHTML = "Your session finished"
+								}
+							 document.getElementById("timer").innerHTML =   "COUNTDOWN " + min + " : " + sec  ;  
+							},1000); 
+						 }
+		</script>
+																													<!-- Quiz Restarts -->
+		<div class="quiz_path">
+			<button id= "button" onClick="location.href='quiz_page.html'"><i><b>Click Here</b></i> to Restart The Quiz</button>
+		</div>
+																					<!-- Footer starting -->
+		<div id="footer_container" style="top:100px" >
+			<footer>
+				<div class="row">
+					<div class="column1">
+						<h1 class="branding" style="font-size:30px" >&nbsp;TRAVEL CEYLON&nbsp;</h1>
+					</div>
+					<div class="column1">
+						<h2 class="footer_headings">Explore more</h2>
+						<div class="footer_items">
+							<a href="homepage.html">Home</a><br>
+							<a href="about_us.html">About</a><br>
+							<a href="quiz_start.html">Quiz</a><br>
+							<a href="feedback.html">Feedback</a><br>
+							<a href="thumbnails.html">Thumbnails</a><br>
+							<a href="svgmap.html">Sitemap</a><br>
+						</div>
+					</div>
+					<div class="column1">
+						<h2  class="footer_headings">More about Srilanka</h2>
+						<div class="footer_items">
+							<a href="content.html">Click here!</a><br>
+						</div>
+					</div>
+					<div class="column1">
+						<div id="contactus">
+							<h2>Contact us&nbsp;</h2>
+							<a href="https://www.gmail.com/"><img src="pics/envelope.svg" alt="gmail" width="55" height="55"/></a>
+						</div>
+						<div id="socials">
+							<h2>Socials&nbsp;</h2>
+							<a href="https://www.facebook.com/"><img src="pics/facebook.svg" alt="facebook" width="55" height="55"/></a>
+							<a href="https://www.instagram.com/"><img src="pics/instagram.svg" alt="instagram" width="55" height="55"/></a>
+							<a href="https://www.youtube.com/"><img src="pics/youtube.svg" alt="youtube" width="55" height="55"/></a>
+						</div>
+					</div>
+					<div class="column1">
+						<h1  class="footer_headings">&nbsp;page editor&nbsp;</h1>
+						<h2 class="footer_headings">&nbsp;Vidushraj Selvaraj&nbsp;</h2>
+						<a href="page_editor_vid.html" id="editor_details">Student 3</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

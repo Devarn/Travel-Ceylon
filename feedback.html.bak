@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Travel Ceylon | Feedback</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+    <link href="css/student2/css/externalstyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/student2/css/feedback.css">
+    <link href="css/student2/css/footer.css" rel="stylesheet" type="text/css">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Pidurangala.jpg");
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-attachment: fixed;
+        }
+        </style>
+</head>
+<body>
+<!--Back to top button-->  
+	<button id="backToTop" onclick="backToTopFunction()">
+		<img src="image1.png" alt="backToTop">
+	</button>
+
+<!--Start Navigation-->   
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src= "logo.png" alt="logo">
+               <h1>&nbsp;TRAVEL CEYLON&nbsp;</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="quiz_start.html">Quiz</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="content.html">Content</a></li> 
+                    <li><a href="svgmap.html">Sitemap</a></li>                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--End Navigation-->
+<br><br><br><br><br><br><br><br><br>
+<!--Start feedback form-->
+<section>
+  <div id="top">
+    <h1><I>FEEDBACK</I></h1>
+      
+  </div>
+
+<div id="mainDiv">
+<form id="mainForm" enctype="text/plain" method="post" action="mailto:sanuki2001@gmail.com">
+
+      <label for="name">Name: </label><br>
+      <input type="text" placeholder="Enter Your Name" id="name" ><br><br>
+
+      <label for="email">Email: </label><br>
+      <input type="text" placeholder="Enter your email" id="email" ><br><br>
+
+      <label for="subject">Service Rating: </label><br>
+      <select id ="subject">
+        <option value="default" disabled selected hidden>How would you rate our service?</option>
+        <option value="Poor">Poor</option>
+        <option value="Average">Average</option>
+        <option value="Good">Good</option>
+        <option value="Excellent">Excellent</option>
+      </select><br><br>
+
+      <label for="message">Message:  </label><br>
+      <textarea  placeholder="Please let us know your feedback to improve our services: " id="message" required></textarea><br><br>
+
+      <input type="button" name="check" value="View" class="button button3" onclick="validateForm()"/>
+
+
+</form>
+</div>
+</section>
+
+  <div id="secondDiv">
+      <form >
+          <h2>Summary</h2>
+          <!--Name -->
+          <label for="name">Name: </label>
+          <label id="lblName" for="name"></label><br>
+ 
+          <!--Email Address-->
+          <label for="email">E-mail Address: </label>
+          <label id="lblEmail" for="email"></label><br>
+ 
+          <!--Query Subject-->
+          <label for="subject">Service Rating: </label>
+          <label id="lblSubject" for="subject"></label><br>
+ 
+          <!-- Details-->
+          <label for="message"> Details: </label>
+          <label id="lblDetails" for="message"></label><br>
+ 
+ 
+          <!-- Buttons-->
+          <input type="button" id="edit" value="Edit" class="button button2" onclick="showMainDiv()"/>    
+          <input type="submit" id="submit" value="Submit" class="button button2" form="mainForm"/>  
+      </form>
+  </div>
+  <script>
+
+      document.getElementById("secondDiv").style.display = "none";
+      function validateForm(){
+          let allAreFilled = true;
+          document.getElementById("mainForm").querySelectorAll("[required]").forEach(function(i) {
+              if (!allAreFilled) return;
+              if (!i.value) allAreFilled = false;
+          })
+          if (!allAreFilled) {
+              if (document.getElementById("name").value == "") {
+                  alert("Please enter your name.");
+              }
+
+              if(document.getElementById("email").value == ""){
+                  alert("Please enter your email.");
+              }
+
+              var subj = document.getElementById("subject");
+              var selectedValue = subj.options[subj.selectedIndex].value;
+              if (subj.selectedIndex == 0){
+                  alert("Please select a subject.");
+              }
+
+              if(document.getElementById("message").value == ""){
+                  alert("Please enter your message.");
+              }
+          }else{
+             
+              alert('Thank you for your inquiry.');
+              copyToLabel();
+          }
+                         
+      }
+      function copyToLabel(){
+         
+          document.getElementById("secondDiv").style.display = "block";
+          document.getElementById("mainDiv").style.display = "none";
+
+
+          //Reference the TextBox.
+              var txtName = document.getElementById("name");
+              var txtEmail = document.getElementById("email");
+              var txtSubject = document.getElementById("subject");
+              var txtDetails = document.getElementById("message");
+     
+              var lblName = document.getElementById("lblName");
+              var lblEmail = document.getElementById("lblEmail");
+              var lblSubject = document.getElementById("lblSubject");
+              var lblDetails = document.getElementById("lblDetails");
+     
+              lblName.innerHTML = txtName.value;
+              lblEmail.innerHTML = txtEmail.value;
+              lblSubject.innerHTML = txtSubject.value;
+              lblDetails.innerHTML = txtDetails.value;
+
+              
+      }
+      function showMainDiv(){
+          //Show Main Div
+          document.getElementById("mainDiv").style.display = "block";
+          //Hide Second Div
+          document.getElementById("secondDiv").style.display = "none";
+      }
+      function sendByMail(){
+          //Hide Main Div
+          document.getElementById("mainDiv").style.display = "none";
+          //Hide Main Div
+          document.getElementById("secondDiv").style.display = "none";
+
+
+      }
+  </script>
+<!--End feedback form-->
+<!--Start Footer-->
+ <div id="footer_container">
+    <footer>
+    <div class="row">
+      <div class="column1">
+        <h1 class="branding">&nbsp;TRAVEL CEYLON&nbsp;</h1>
+        
+      </div>
+      <div class="column1">
+        <h2 class="footer_headings">Explore more</h2>
+    <div class="footer_items">
+        <a href="homepage.html">Home</a><br>
+        <a href="about_us.html">About</a><br>
+        <a href="quiz_start.html">Quiz</a><br>
+        <a href="feedback.html">Feedback</a><br>
+        <a href="thumbnails.html">Thumbnails</a><br>
+        <a href="svgmap.html">Sitemap</a><br>
+    </div>
+       
+        
+      </div>
+      <div class="column1">
+      
+        <h2  class="footer_headings">More about Srilanka</h2>
+        <div class="footer_items">
+        <a href="content.html">Click here!</a><br>
+    
+      </div>
+      </div>
+      <div class="column1">
+        <div id="contactus">
+          <h2>Contact us&nbsp;</h2>
+          <a href="https://www.gmail.com/"><img src="images/envelope.svg" alt="gmail" width="55" height="55"/></a>
+          </div>
+        <div id="socials">
+        <h2>Socials&nbsp;</h2>
+       <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook" width="55" height="55"/></a>
+       <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram" width="55" height="55"/></a>
+       
+       <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="youtube" width="55" height="55"/></a>
+       </div>
+    
+      </div>
+        <div class="column1">
+        <h1  class="footer_headings">&nbsp;Page Editor:&nbsp;</h1>
+        <h4  class="footer_headings">&nbsp;Sanuki Karunatilake&nbsp;</h4>
+        <a href="student2.html" id="editor_details">Student 2</a>
+      </div>
+    </div>
+    </footer>
+    </div>
+    <!--End Footer-->
+    <script src="javascript/backtotop.js"></script>
+    <script src="javascript/feedback.js"></script> 
+    <!--End Content--> 
+  </body>
+  </html>

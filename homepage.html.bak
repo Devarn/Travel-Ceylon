@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Tourism | Home</title>
+    <link rel="icon" type="image/x-icon" href="logo.ico">
+	
+	
+    <link href="css/student4/css/externalstyle.css" rel="stylesheet" type="text/css">
+	<link href="css/student4/css/homepage.css" rel="stylesheet" type="text/css">
+	<link href="css/student4/css/footer.css" rel="stylesheet" type="text/css">
+  
+</head>
+
+  
+<body>
+<button id="backToTop" onclick="backToTopFunction()">
+		<img src="image1.png" alt="backToTop">
+	</button>
+ 
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src= "logo.png" alt="logo">
+               <h1>&nbsp;TRAVEL CEYLON&nbsp;</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="quiz_start.html">Quiz</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="content.html">Content</a></li> 
+                    <li><a href="svgmap.html">Sitemap</a></li>                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+	<div class="Top">
+</div>
+
+
+
+
+
+
+
+<div id="entryVideo">
+    <video width="1518" height="854" autoplay loop muted>
+         <source src="video/homepage_video1.mp4" type="video/mp4"/>
+         <source type="video/ogg" src="video_file.ogg"/>
+    </video>
+    <h1 class="visitSrilankaText">Explore SRI LANKA!</h1>
+</div>
+<div id="srilanka_container">
+<hr>
+<div class="srilanka_img">
+<img class="srilanka_margin" src="images/Srilanka_Info.jpg" alt="picture srilanka" height="400" width="430"/>
+<div class="srilanka_info">
+<h2>Sri Lanka is an alluring island located in the Indian Ocean,south west to the <br>
+Bay of Bengal.Known by other names such as ceylon,playing an important role <br>
+in history as a major trading hub during the days of the silk route<br>
+Home to a wide variety of Ethnicities and Cultures,<br>
+boasting some of the most beautfiul beaches in the world and of course,<br>
+The year around sunshine makes Sri Lanka a Tourist hot spot</h2>
+</div>
+
+</div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div id="collage_container">
+<hr>
+<div class="srilanka_img">
+	 <a style="display:block" href="Additionalcontent/content.html">
+     <div class="boxx2">
+ 		    <img id="collage_img" src="images/collage.jpeg" alt="collage" width="400" height="400">
+
+ 	   </div>
+	</a>
+<div class="srilanka_info">
+<h2>Sri Lanka has so much to offer! <br>
+everything ranging from calming beaches,amazing animals, <br>
+exotic flowers and not to mention mouth-watering food!<br>
+Click on the image to the left to learn more!,<br></h2>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+<div id="footer_container">
+<footer>
+<div class="row">
+  <div class="column1">
+    <h1 class="branding">&nbsp;TRAVEL CEYLON&nbsp;</h1>
+	
+  </div>
+  <div class="column1">
+    <h2 class="footer_headings">Explore more</h2>
+<div class="footer_items">
+    <a href="homepage.html">Home</a><br>
+	<a href="about_us.html">About</a><br>
+	<a href="quiz_start.html">Quiz</a><br>
+	<a href="feedback.html">Feedback</a><br>
+	<a href="thumbnails.html">Thumbnails</a><br>
+	<a href="svgmap.html">Sitemap</a><br>
+</div>
+   
+    
+  </div>
+  <div class="column1">
+  
+    <h2  class="footer_headings">More about Srilanka</h2>
+	<div class="footer_items">
+    <a href="content.html">Click here!</a><br>
+
+  </div>
+  </div>
+  <div class="column1">
+    <div id="contactus">
+	  <h2>Contact us&nbsp;</h2>
+	  <a href="https://www.gmail.com/"><img src="images/envelope.svg" alt="gmail" width="55" height="55"/></a>
+	  </div>
+	<div id="socials">
+	<h2>Socials&nbsp;</h2>
+   <a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook" width="55" height="55"/></a>
+   <a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram" width="55" height="55"/></a>
+   
+   <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="youtube" width="55" height="55"/></a>
+   </div>
+
+  </div>
+    <div class="column1">
+    <h1  class="footer_headings">&nbsp;Page editor:&nbsp;</h1>
+	<h1  id="editor_name">&nbsp;Devarn Paraneetharan&nbsp;</h1>
+	<a href="page_editor_dev.html" id="editor_details">Student 4</a>
+  </div>
+</div>
+</footer>
+</div>
+<script src="javascript/backtotop.js"></script>
+
+
+
+</body>
+</html>

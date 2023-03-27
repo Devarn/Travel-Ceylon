@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Nethruwan</title>
+		<link rel="shortcut icon" href="pics/logo.ico">
+		<link rel="stylesheet" type="text/css" href="css/student3/css/my_css.css">
+		<link rel="stylesheet" type="text/css" href="css/student3/css/externalstyle.css">
+		<style>
+			#image2{
+				display: block;
+				height: 200px;
+				width: 200px;
+			}
+		</style>
+	</head>
+	<body>
+		<img id="image2" src="pics/nethruwan.jpeg" alt="Nethruwan picture"/>
+		<h4><u>About me</u></h4>
+		<br>
+		<br>
+		<p>I am Nethruwan Dhanasankha and I'm 21 years old. I studied at St.Thomas college. I love traveling to many places and it's been my hobby since a young age. As a result, this website was created to help tourists by us in the sense all 4 of us. This website is a fun and interactive website related to all popular things around Srilanka and moreover, users can visit the store on our website.</p>
+		<br>
+		<br>
+		<br>
+		<table style="color: white">
+			<tr>
+				<th><b>NAME</b></th>
+				<td><b>Nethruwan Dhanasankha</b></td>	
+			</tr>
+			<tr>
+				<th><b>AGE</b></th>
+				<td><b>21</b></td>
+			</tr>
+			<tr>
+				<th><b>CONTACT DETAILS</b></th>	
+				<td><b>Email:<a href="mailto:nethruwan.20200663@iit.ac.lk">Nethruwan</a><br>Phone No:<a href="tel:+94768422462">+94768422462</a></b></td>
+			</tr>
+		</table>
+		<br>
+		<br>
+		<br>	
+		<br>
+		<br>	
+		<br>
+		<br>
+		<br>
+		<footer style="background-color: white" >
+			<a href="page_editor.html" style="font-size:20px"><b>PAGE EDITOR</b></a>
+		</footer>
+	</body>
+	</html>
